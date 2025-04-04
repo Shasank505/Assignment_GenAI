@@ -68,12 +68,18 @@ A FastAPI-based application that utilizes LangChain, Google LLM, and the Chroma 
 
 ```
 Assignment_GenAI/
-├── main.py                       # FastAPI application entry point
-├── README.md                     # Project documentation
-├── requirements.txt              # Python dependencies
-├── utils/                        # Utility modules
-│   ├── __init__.py               # Package initializer
-│   ├── pdf_processor.py          # Handles PDF processing   and embedding
-│   ├── qa_engine.py              # Handles question answering logic
+├── .gitignore                     # Git ignore file
+├── Assignment_GenAI_ Detailed Report.pdf  # PDF report
+├── main.py                        # FastAPI application entry point
+├── README.md                      # Project documentation
+├── requirements.txt               # Python dependencies
+├── config/                        # Configuration files
+│   ├── settings.py                # Application settings
+├── routes/                        # API route handlers
+│   ├── document_routes.py         # Routes for document operations
+├── services/                      # Core service logic
+│   ├── __init__.py                # Package initializer
+│   ├── document_processor.py      # Handles document processing and embedding
+│   ├── query_engine.py            # Handles question answering logic
 ```
 
