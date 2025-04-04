@@ -38,7 +38,7 @@ A FastAPI-based application that utilizes LangChain, Google LLM, and the Chroma 
 
 5. Run the application:
    ```bash
-  uvicorn main:app --reload
+   uvicorn main:app --reload
    ```
 
 6. Access the application at http://localhost:8000
